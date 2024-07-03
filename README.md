@@ -5,6 +5,6 @@ When extending the test from playwright and using it in tests the report will no
 Steps to reproduce
 - Run `npm -i`
 - Run `npx playwright test`
-- Check test that is failing and is using baseTest.ts has and mostly empty trace and most steps are missing
+- Check test that is failing and is using baseTest.ts has a mostly empty trace and most steps are missing
 - Check that passed test has full trace
 - Check that failed test that is not using baseTest.ts, but instead using @playwright/test directly has all trace information
